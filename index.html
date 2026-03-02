@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>videos</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.video-box {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    aspect-ratio: 16 / 9;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* 再生ボタン */
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 40px solid white;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+</style>
+</head>
+
+<body>
+
+<h1>videos for you</h1>
+
+<div class="video-wrapper">
+    <a href="https://lite.tiktok.com/t/ZS9eEYgRPR5qJ-pRRWf/" target="_blank">
+        <div class="video-box">
+            <div class="play-button"></div>
+        </div>
+    </a>
+</div>
+
+</body>
+</html>
